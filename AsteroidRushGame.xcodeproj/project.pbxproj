@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27338C7927BA9EC80036B31A /* AsteroidRushGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27338C7827BA9EC80036B31A /* AsteroidRushGameApp.swift */; };
+		27338C7B27BA9EC80036B31A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27338C7A27BA9EC80036B31A /* ContentView.swift */; };
+		27338C7D27BA9EC90036B31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27338C7C27BA9EC90036B31A /* Assets.xcassets */; };
+		27338C8027BA9EC90036B31A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27338C7F27BA9EC90036B31A /* Preview Assets.xcassets */; };
+		27338C8727BA9EE70036B31A /* AsteroidsGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27338C8627BA9EE70036B31A /* AsteroidsGameScene.swift */; };
+		27338C8927BAA0E60036B31A /* PlayerParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 27338C8827BAA0E60036B31A /* PlayerParticles.sks */; };
+		27338C8B27BABDFF0036B31A /* AsteroidParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 27338C8A27BABDFF0036B31A /* AsteroidParticle.sks */; };
+		2766182327BBC3AB008A4535 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766182227BBC3AB008A4535 /* GameConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27338C7527BA9EC80036B31A /* AsteroidRushGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsteroidRushGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27338C7827BA9EC80036B31A /* AsteroidRushGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidRushGameApp.swift; sourceTree = "<group>"; };
+		27338C7A27BA9EC80036B31A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27338C7C27BA9EC90036B31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27338C7F27BA9EC90036B31A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27338C8627BA9EE70036B31A /* AsteroidsGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsGameScene.swift; sourceTree = "<group>"; };
+		27338C8827BAA0E60036B31A /* PlayerParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerParticles.sks; sourceTree = "<group>"; };
+		27338C8A27BABDFF0036B31A /* AsteroidParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AsteroidParticle.sks; sourceTree = "<group>"; };
+		2766182227BBC3AB008A4535 /* GameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27338C7227BA9EC80036B31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27338C6C27BA9EC80036B31A = {
+			isa = PBXGroup;
+			children = (
+				27338C7727BA9EC80036B31A /* AsteroidRushGame */,
+				27338C7627BA9EC80036B31A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27338C7627BA9EC80036B31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27338C7527BA9EC80036B31A /* AsteroidRushGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27338C7727BA9EC80036B31A /* AsteroidRushGame */ = {
+			isa = PBXGroup;
+			children = (
+				27338C7827BA9EC80036B31A /* AsteroidRushGameApp.swift */,
+				27338C7A27BA9EC80036B31A /* ContentView.swift */,
+				27338C8627BA9EE70036B31A /* AsteroidsGameScene.swift */,
+				2766182227BBC3AB008A4535 /* GameConstants.swift */,
+				27338C8827BAA0E60036B31A /* PlayerParticles.sks */,
+				27338C8A27BABDFF0036B31A /* AsteroidParticle.sks */,
+				27338C7C27BA9EC90036B31A /* Assets.xcassets */,
+				27338C7E27BA9EC90036B31A /* Preview Content */,
+			);
+			path = AsteroidRushGame;
+			sourceTree = "<group>";
+		};
+		27338C7E27BA9EC90036B31A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27338C7F27BA9EC90036B31A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27338C7427BA9EC80036B31A /* AsteroidRushGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27338C8327BA9EC90036B31A /* Build configuration list for PBXNativeTarget "AsteroidRushGame" */;
+			buildPhases = (
+				27338C7127BA9EC80036B31A /* Sources */,
+				27338C7227BA9EC80036B31A /* Frameworks */,
+				27338C7327BA9EC80036B31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsteroidRushGame;
+			productName = AsteroidRushGame;
+			productReference = 27338C7527BA9EC80036B31A /* AsteroidRushGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27338C6D27BA9EC80036B31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					27338C7427BA9EC80036B31A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 27338C7027BA9EC80036B31A /* Build configuration list for PBXProject "AsteroidRushGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27338C6C27BA9EC80036B31A;
+			productRefGroup = 27338C7627BA9EC80036B31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27338C7427BA9EC80036B31A /* AsteroidRushGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27338C7327BA9EC80036B31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27338C8027BA9EC90036B31A /* Preview Assets.xcassets in Resources */,
+				27338C8927BAA0E60036B31A /* PlayerParticles.sks in Resources */,
+				27338C8B27BABDFF0036B31A /* AsteroidParticle.sks in Resources */,
+				27338C7D27BA9EC90036B31A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27338C7127BA9EC80036B31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27338C7B27BA9EC80036B31A /* ContentView.swift in Sources */,
+				2766182327BBC3AB008A4535 /* GameConstants.swift in Sources */,
+				27338C7927BA9EC80036B31A /* AsteroidRushGameApp.swift in Sources */,
+				27338C8727BA9EE70036B31A /* AsteroidsGameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27338C8127BA9EC90036B31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27338C8227BA9EC90036B31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27338C8427BA9EC90036B31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsteroidRushGame/Preview Content\"";
+				DEVELOPMENT_TEAM = RHRH7MV3VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginary-institute.ncx.spritekit.tiago.AsteroidRushGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27338C8527BA9EC90036B31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsteroidRushGame/Preview Content\"";
+				DEVELOPMENT_TEAM = RHRH7MV3VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "imaginary-institute.ncx.spritekit.tiago.AsteroidRushGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27338C7027BA9EC80036B31A /* Build configuration list for PBXProject "AsteroidRushGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27338C8127BA9EC90036B31A /* Debug */,
+				27338C8227BA9EC90036B31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27338C8327BA9EC90036B31A /* Build configuration list for PBXNativeTarget "AsteroidRushGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27338C8427BA9EC90036B31A /* Debug */,
+				27338C8527BA9EC90036B31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27338C6D27BA9EC80036B31A /* Project object */;
+}
